@@ -1,4 +1,4 @@
-Javascript-class-boilerplate (Literal version)
+Javascript Object Oriented
 ============================
 
-JavaScript class boilerplate for quick start
+JavaScript object oriented boilerplate for quick start
