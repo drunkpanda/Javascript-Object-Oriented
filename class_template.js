@@ -36,3 +36,23 @@ var class_template = {
      }       
 };
 class_template.init();
+
+
+
+function myObject(options) {
+    var defaults = {
+        start: '1'
+    };
+
+    options = $.extend(defaults, options);
+
+    this.doSomething = function () {
+        console.log('BOO');
+        console.log(options.start);
+    }
+}
+new myObject().doSomething()
+new myObject({start:'100'}).doSomething()
+
+
+
